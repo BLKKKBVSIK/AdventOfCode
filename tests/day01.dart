@@ -1,8 +1,5 @@
-import 'dart:io';
 import 'package:test/test.dart';
 import '../bin/day01.dart';
-
-final input = File('test/data/day01.txt').readAsLinesSync();
 
 void main() {
   group('Part One', () {
