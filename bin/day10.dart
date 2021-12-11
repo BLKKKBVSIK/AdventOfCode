@@ -4,7 +4,7 @@ void main() {
   File myFile = File("bin/data/day10-input.txt");
   List<String> input = myFile.readAsLinesSync();
 
-  //print("Result1: " + partOne(input).toString());
+  print("Result1: " + partOne(input).toString());
   print("Result2: " + partTwo(input).toString());
 }
 
