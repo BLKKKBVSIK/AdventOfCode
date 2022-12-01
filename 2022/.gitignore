@@ -4,7 +4,3 @@
 
 # Conventional directory for build output.
 build/
-
-# Specific file that I don't want to commit.
-
-pubspec.lock
