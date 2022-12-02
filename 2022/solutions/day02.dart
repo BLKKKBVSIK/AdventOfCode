@@ -86,12 +86,10 @@ class RockPaperScissors {
     }
     // Win
     if (winCondition == 'Z') {
-      print(getOppositeMove(move).value);
       return getOppositeMove(move).value + 6;
     }
     // Loose
     if (winCondition == 'X') {
-      print(getOppositeMove(move).value);
       return getOppositeMove(getOppositeMove(move)).value;
     }
     return 0;
