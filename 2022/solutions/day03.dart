@@ -1,5 +1,4 @@
 import '../utils/index.dart';
-import 'package:collection/collection.dart';
 
 class Day03 extends GenericDay {
   Day03() : super(3);
