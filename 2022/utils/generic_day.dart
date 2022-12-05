@@ -11,8 +11,8 @@ abstract class GenericDay {
         input = InputUtil(day);
 
   dynamic parseInput();
-  int solvePart1();
-  int solvePart2();
+  dynamic solvePart1();
+  dynamic solvePart2();
 
   void printSolutions() {
     print("-------------------------");
